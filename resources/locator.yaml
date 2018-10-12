@@ -1,0 +1,43 @@
+#Locator
+login_page_btn:   //*[@id="app"]//button[@class="button-login"]
+noti_popup:       id=normal-popover
+cancel_noti_btn:  id=onesignal-popover-cancel-button
+login_w_fb:       //*[@data-selenium="button-facebook-signin"]
+login_w_g:        //*[@data-selenium="button-google-signin"]
+login_username_txt: //*[@name="username"]
+login_password_txt: //*[@name="password"]
+login_modal_btn:    //*[@data-selenium="button-signin"]
+login_modal_close_btn:  //*[@class="icon-close _cs-pt"]
+profile_nav:  //*[@class="navbar__profile-username"]
+logout_btn:   //*[@data-selenium="button-menu-logout"]
+username_err_msg:   //*[@name="username"]/../../small
+password_err_msg:   //*[@name="password"]/../../small
+invalid_err_msg:    //*[@class="noty_bar noty_type_error"]/div/span
+
+#Locator | Facebook Oauth Page
+facebook_auth_username_txt: id=email
+facebook_auth_password_txt: id=pass
+facebook_auth_login_btn: id=u_0_0
+error_fb: //*[@id="error_box"]/div[1]
+validate_appRequestor: //*[@id="content"]/span
+
+#Locator | Facebook Web Login Page
+facebook_web_username_txt: id=email
+facebook_web_password_txt: id=pass
+facebook_web_login_btn: //*[@data-testid="royal_login_button"]
+
+
+#Locator | Google Oauth Page
+Validate google: //*[@id="headingSubtext"]/content/a
+google_auth_mail_txt: id=identifierId
+google_auth_pass_txt: //*[@name="password"]
+error_mail: //*[@id="view_container"]/div/div/div[2]/div/div[1]/div/form/content/section/div/content/div[1]/div/div[2]/div[2]
+next_btn_mailtopwd: //*[@id="identifierNext"]/content
+next_btn_signin: //*[@id="passwordNext"]/content/span
+google_pass: name="password"
+
+#Search
+search_txt_box: //*[@name="search"]
+search_result_txt:  //*[@class="ui grid container"]/div/div/h2
+search_loader_active: //*[@class="ui inverted dimmer active"]
+banner_filter_result: //*[@id="app-content"]//*[@class="row"]

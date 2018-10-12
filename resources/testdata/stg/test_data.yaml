@@ -1,0 +1,32 @@
+#Main login user
+s_login_email_usr:  sample_1@mail.com
+s_login_mobile_usr: 0811111111
+s_login_wuser_pwd:  12345678
+s_login_wuser_display:  name_1
+
+#Secondary login user
+2_login_email_usr: sample_2@mail.com
+2_login_wuser_pwd: 12345678
+2_login_wuser_display: name_2
+
+#facebook credential
+facebook_username: sample_1@mail.com
+facebook_pwd: 12345678
+facebook_user_display: name_1
+
+#google credential
+google_username:  sample_2@mail.com
+google_pwd: 12345678
+google_user_display:    name_2
+
+#search matching
+thai_target_word: การ์ด
+thai_target_count: '(1128)'
+eng_target_word: card
+eng_target_word_Cap1: Card
+eng_target_word_Cap2: CarD
+eng_target_count: '(201)'
+search_whitespace: ' '
+
+#search cat (social media banner)
+smb_target_search: Keatbuncha

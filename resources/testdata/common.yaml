@@ -1,0 +1,16 @@
+#Login modal err msg
+err_msg_empty:    กรุณากรอกข้อมูล
+err_msg_invalid_login:  Invalid Username or Password
+
+#Title window
+default_title:  Fastwork.co แหล่งรวมฟรีแลนซ์คุณภาพอันดับ 1 ที่ธุรกิจหลายหมื่นรายเลือกใช้
+fb_oauth_title: Facebook
+google_oauth_title: ลงชื่อเข้าใช้ - บัญชี Google
+
+#Search pattern
+search_result_pattern: 'ผลการค้นหา :'
+
+#ETC String
+empty_str: ''
+s_random_fail_str: randomtext
+
