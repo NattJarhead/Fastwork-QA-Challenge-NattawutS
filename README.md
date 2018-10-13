@@ -7,7 +7,7 @@ This repository is only used for Fastwork.co interview process.
 ### Robotframework
 Robot-framework has enough capabilities to run the full regressing testing for both API & UI. But yet simple enough for a non-coder to understand and eager to jump in and implement it. This enables the more promising rate of adoption to most of QA in Thailand industry. Moreover, it's also easy for maintenance and transition from each team/people in the future.
 ### Jmeter
-Jmeter is a complete free tool yet powerful for performance testing.
+Jmeter is a complete free tool yet powerful for performance testing. Version(5.0) + jpgc-casutg(Plugin)
 
 # Test cases design
 - [Google Sheet Link](https://docs.google.com/spreadsheets/d/18d_HIk39JjPpzZuVZ1-7cvVkOyGcW7ufUsom4GVQUMU)
@@ -65,6 +65,7 @@ Jmeter is a complete free tool yet powerful for performance testing.
         - staging
           - test_data.yaml
       - imports.robot           >>> imports configurations and libraries
+      - locator.yaml            >>> store all page locator 
       - common_configs.yaml     >>> All configurations ie; End point
     - testcases
       - login
